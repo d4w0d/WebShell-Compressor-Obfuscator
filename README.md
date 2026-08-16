@@ -13,7 +13,7 @@ A powerful, professional-grade tool for compressing and obfuscating web shells a
 - Unauthorized use is illegal and unethical
 - The authors assume no liability for misuse
 
-## 🎯 Features
+## Features
 
 - **Multi-Language Support**: PHP, Python, JavaScript, ASP, JSP
 - **Advanced Compression**: 70-90% size reduction
@@ -28,7 +28,7 @@ A powerful, professional-grade tool for compressing and obfuscating web shells a
 - **CLI Interface**: Easy command-line usage
 - **Full Decompression**: Restore original code perfectly
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Installation
 
