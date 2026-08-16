@@ -32,7 +32,7 @@ Unauthorized testing may be illegal. The authors assume no responsibility for mi
 
 ```bash
 git clone https://github.com/d4w0d/code-compressor-security-analyzer.git
-cd code-compressor-security-analyzer
+cd WebShell-Compressor-Obfuscator/
 
 python -m pip install -r requirements.txt
 pip install -e .
