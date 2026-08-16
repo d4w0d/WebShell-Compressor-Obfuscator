@@ -42,3 +42,43 @@ pip install -r requirements.txt
 
 # Install the package
 python setup.py install
+
+
+
+
+# Code Compressor & Security Analyzer
+
+A safe educational project for compressing/minifying **benign source code** and
+analyzing source text for potentially dangerous constructs.
+
+This reconstruction intentionally does **not** implement web-shell generation,
+self-executing payloads, AV/IDS signature evasion, or execution of decoded payloads.
+
+## Supported operations
+
+- Text/source-code compression with zlib + Base64
+- Source minification for common whitespace/comments
+- SHA-256 integrity verification
+- Suspicious-pattern analysis
+- JSON reports
+- CLI and Python API
+
+## Installation
+
+```bash
+python -m pip install -r requirements.txt
+pip install -e .
+```
+
+## Usage
+
+```bash
+code-compressor compress examples/sample.py -o sample.compressed.json
+code-compressor decompress sample.compressed.json -o sample.restored.py
+code-compressor analyze examples/sample.py
+```
+
+## Integrity
+
+The compressed package contains a SHA-256 digest of the original source and
+decompression verifies it before returning the restored content.
